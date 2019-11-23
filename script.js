@@ -9,13 +9,14 @@ const game = () => {
 
         playBtn.addEventListener('click', () => {
             introScreen.classList.add("fadeOut");
+            match.classList.add("fadeIn");
         });
     };
 
     //call the function
 
     startGame();
-    updateScore():
+    updateScore();
 };
 
 
