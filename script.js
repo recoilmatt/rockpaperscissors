@@ -15,7 +15,7 @@ const game = () => {
     //call the function
 
     startGame();
-    updateScore():
+    updateScore();
 };
 
 
