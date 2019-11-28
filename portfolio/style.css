@@ -61,8 +61,8 @@ a:link {
     background-position: center; 
     width: 100%;
     background-color: none;
-    height: 200px;
-    margin-top: 32px;
+    height: calc(250px-10%);
+    margin-top: 15%;
     border-radius: 4px;
 }
 
@@ -72,9 +72,8 @@ a:link {
     background-size:  100%;
     width: 100%;
     background-color: none;
-    height: 200px;
-   
-    border-radius: 4px;
+    height: 230px;
+       border-radius: 4px;
 }
 
 .item1:hover {
@@ -97,6 +96,17 @@ a:link {
     opacity: 1;
 }
 .social {
-    margin: 16px;
+    margin-top: 20px;
    text-align: center;
+   position: absolute;
+ bottom: 5;
+ width: 100%;
+}
+
+.photo {
+    width: 100%;
+    
+    object-fit: contain;
+   
+ 
 }
