@@ -1,6 +1,9 @@
 const game = () => {
     let pScore = 0;
     let cScore = 0;
+    
+
+    //start the game
 
     const startGame = () => {
         const playBtn = document.querySelector('.intro button');
@@ -12,12 +15,16 @@ const game = () => {
             match.classList.add("fadeIn");
         });
     };
+//play match
+const playMatch = () => {
 
+}
     //call the function
 
     startGame();
     updateScore();
 };
+
 
 
 //start the game function
