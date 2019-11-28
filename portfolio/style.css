@@ -1,0 +1,102 @@
+body {
+    background-color: #ffffff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+.banner {
+    width: 100%;
+    height: 10px;
+    background-color: rgb(0, 57, 90);
+    margin-bottom: 10px;
+}
+a:link {
+    text-decoration: none;
+  }
+  
+.lifestyle {
+    background-image: url("img/lifestyle.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    width: 100%;
+    background-color: none;
+    height: 200px;
+    margin-top: 32px;
+    border-radius: 4px;
+}
+
+.architecture {
+    background-image: url("img/lifestyle.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    width: 100%;
+    background-color: none;
+    height: 200px;
+    margin-top: 32px;
+    border-radius: 4px;
+}
+
+.portraits {
+    background-image: url("img/lifestyle.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    width: 100%;
+    background-color: none;
+    height: 200px;
+    margin-top: 32px;
+    border-radius: 4px;
+}
+
+
+.travel {
+    background-image: url("img/lifestyle.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    width: 100%;
+    background-color: none;
+    height: 200px;
+    margin-top: 32px;
+    border-radius: 4px;
+}
+
+.item1 {
+    /*background-image: url("test.jpg");*/
+    background-repeat: no-repeat;
+    background-size:  100%;
+    width: 100%;
+    background-color: none;
+    height: 200px;
+   
+    border-radius: 4px;
+}
+
+.item1:hover {
+    opacity: 0.9;
+	-webkit-transition: .6s ease-in-out;
+    transition: .6s ease-in-out;
+    background-color: #f5f5f5;
+}
+
+.itemText {
+    color: red;
+    text-align: center;
+    padding-top: 80px;
+    opacity: 0;
+  }
+
+.item1:hover .itemText{
+    -webkit-transition: .6s ease-in-out;
+	transition: .6s ease-in-out;
+    opacity: 1;
+}
+.social {
+    margin: 16px;
+   text-align: center;
+}
